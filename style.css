@@ -1,0 +1,72 @@
+/* Fonte e estilos gerais */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    margin: 0;
+    padding: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Cabeçalho */
+header {
+    padding: 80px;
+    background: rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid rgb(118, 182, 255);
+}
+
+/* Botões de acessibilidade */
+.acessibilidade {
+    margin: 20px;
+}
+
+button {
+    background: white;
+    color: #5794ff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #327cfc;
+    color: white;
+}
+
+/* Seção de conteúdo */
+.conteudo {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 400px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+/* Modo de alto contraste */
+.contraste-alto {
+    background: black;
+    color: yellow;
+}
+
+.contraste-alto header, 
+.contraste-alto footer {
+    background: black;
+    border-bottom: 2px solid yellow;
+}
