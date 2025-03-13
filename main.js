@@ -20,5 +20,5 @@ function toggleContraste() {
 
 // Abrir um vídeo de Libras (simulação)
 function abrirLibras() {
-    window.open("https://www.youtube.com/watch?v=b4B8V7nUF7g", "_blank");
+    window.open("https://youtu.be/ktLYrQhwg6Q?si=wDFzq3E2l2ANJd62", "_blank");
 }

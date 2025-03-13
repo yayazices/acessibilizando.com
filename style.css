@@ -37,14 +37,14 @@ button {
 }
 
 button:hover {
-    background: #327cfc;
+    background: #4778ff;
     color: white;
 }
 
 /* Seção de conteúdo */
 .conteudo {
     padding: 20px;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.199);
     border-radius: 10px;
     width: 80%;
     margin: auto;
@@ -62,11 +62,11 @@ footer {
 /* Modo de alto contraste */
 .contraste-alto {
     background: black;
-    color: yellow;
+    color: rgb(255, 255, 247);
 }
 
 .contraste-alto header, 
 .contraste-alto footer {
     background: black;
-    border-bottom: 2px solid yellow;
+    border-bottom: 2px solid rgb(255, 255, 255);
 }
